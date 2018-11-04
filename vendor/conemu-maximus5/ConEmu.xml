@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2018-03-27 00:11:47" build="180206">
+		<key name=".Vanilla" modified="2018-11-04 15:38:33" build="180206">
 			<value name="ColorTable00" type="dword" data="00423607"/>
 			<value name="ColorTable01" type="dword" data="00d28b26"/>
 			<value name="ColorTable02" type="dword" data="0075ffee"/>
@@ -77,7 +77,7 @@
 			<value name="StartFarEditors" type="hex" data="00"/>
 			<value name="StoreTaskbarkTasks" type="hex" data="00"/>
 			<value name="StoreTaskbarCommands" type="hex" data="00"/>
-			<value name="SingleInstance" type="hex" data="00"/>
+			<value name="SingleInstance" type="hex" data="01"/>
 			<value name="ShowHelpTooltips" type="hex" data="01"/>
 			<value name="Multi" type="hex" data="01"/>
 			<value name="Multi.ShowButtons" type="hex" data="01"/>
@@ -98,7 +98,7 @@
 			<value name="Multi.SplitHeight" type="hex" data="04"/>
 			<value name="KeyboardHooks" type="hex" data="02"/>
 			<value name="FontName" type="string" data="Meslo LG M for Powerline"/>
-			<value name="FontName2" type="string" data="Lucida Console"/>
+			<value name="FontName2" type="string" data="Meslo LG M for Powerline"/>
 			<value name="FontAutoSize" type="hex" data="00"/>
 			<value name="FontSize" type="ulong" data="20"/>
 			<value name="FontSizeX" type="ulong" data="0"/>
@@ -123,15 +123,15 @@
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
 			<value name="UseCurrentSizePos" type="hex" data="01"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd Width" type="dword" data="000000b6"/>
-			<value name="ConWnd Height" type="dword" data="0000002f"/>
+			<value name="ConWnd Width" type="dword" data="000000da"/>
+			<value name="ConWnd Height" type="dword" data="00000029"/>
 			<value name="Cascaded" type="hex" data="01"/>
-			<value name="ConWnd X" type="long" data="638"/>
-			<value name="ConWnd Y" type="long" data="116"/>
+			<value name="ConWnd X" type="long" data="291"/>
+			<value name="ConWnd Y" type="long" data="0"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="AutoSaveSizePos" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
-			<value name="QuakeStyle" type="hex" data="00"/>
+			<value name="QuakeStyle" type="hex" data="01"/>
 			<value name="QuakeAnimation" type="ulong" data="300"/>
 			<value name="HideCaption" type="hex" data="00"/>
 			<value name="HideChildCaption" type="hex" data="01"/>
@@ -185,7 +185,7 @@
 			<value name="SendAltPrintScrn" type="hex" data="00"/>
 			<value name="SendPrintScrn" type="hex" data="00"/>
 			<value name="SendCtrlEsc" type="hex" data="00"/>
-			<value name="Min2Tray" type="hex" data="00"/>
+			<value name="Min2Tray" type="hex" data="01"/>
 			<value name="AlwaysShowTrayIcon" type="hex" data="00"/>
 			<value name="SafeFarClose" type="hex" data="01"/>
 			<value name="SafeFarCloseMacro" type="string" data=""/>
@@ -493,10 +493,10 @@
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="Flags" type="dword" data="00000000"/>
 				</key>
-				<key name="Task2" modified="2018-02-27 13:49:01" build="180206">
+				<key name="Task2" modified="2018-10-31 16:18:40" build="180206">
 					<value name="Name" type="string" data="{Powershell::Powershell}"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="powershell.exe"/>
+					<value name="Cmd1" type="string" data="PowerShell -cur_console:s50H"/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -677,11 +677,11 @@
 			<value name="StatusBar.Hide.Dpi" type="hex" data="01"/>
 			<value name="TabFlashChanged" type="long" data="8"/>
 			<value name="TabModifiedSuffix" type="string" data="[*]"/>
-			<key name="HotKeys" modified="2018-02-27 13:49:01" build="180206">
+			<key name="HotKeys" modified="2018-11-04 15:21:21" build="180206">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="00000011"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
-				<value name="MinimizeRestore" type="dword" data="00000000"/>
+				<value name="MinimizeRestore" type="dword" data="00005bc0"/>
 				<value name="MinimizeRestore2" type="dword" data="00000000"/>
 				<value name="GlobalRestore" type="dword" data="00000000"/>
 				<value name="CdExplorerPath" type="dword" data="00000000"/>
@@ -712,7 +712,7 @@
 				<value name="Multi.SplitFocusR" type="dword" data="00005d27"/>
 				<value name="Multi.Next" type="dword" data="00000000"/>
 				<value name="Multi.NextShift" type="dword" data="00000000"/>
-				<value name="Multi.Recreate" type="dword" data="00005bc0"/>
+				<value name="Multi.Recreate" type="dword" data="00000000"/>
 				<value name="Multi.AltCon" type="dword" data="00000000"/>
 				<value name="Multi.Pause" type="dword" data="80808013"/>
 				<value name="Multi.Scroll" type="dword" data="00000000"/>
